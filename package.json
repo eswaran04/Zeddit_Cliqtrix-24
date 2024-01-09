@@ -1,0 +1,28 @@
+{
+  "name": "expensemanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.0",
+    "morgan": "^1.10.0",
+    "perf_hooks": "^0.0.1",
+    "pm2": "^5.3.0",
+    "snoowrap": "^1.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
